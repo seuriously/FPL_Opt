@@ -14,23 +14,23 @@ FPL stands for [Fantasy Premier League](https://fantasy.premierleague.com). Basi
 Action | Fantasy Points
 ---|---
 For playing in a match (less than 60 minutes)|1 point
-|For playing at least 60 minutes in a match |2 points
-|For each goal scored by a goalkeeper or defender |8 points
-|For each goal scored by a midfielder |7 points
-|For each goal scored by a forward |6 points
-|For each goal assist |4 points
-|For a clean sheet by a goalkeeper (the goalkeeper must also play at least 60 minutes) |4 points
-|For a clean sheet by a defender (the defender must also play at least 60 minutes) |4 points
-|For a clean sheet by a midfielder (the midfielder must also play at least 60 minutes) |1 point
-|For every 4 shot saves by a goalkeeper |1 point
-|For each penalty save |4 points
-|For every three tackles in the game |2 points
-|For every 60 successful passes by a midfielder |2 points
-|For each penalty miss |-2 points
-|For every 2 goals conceded by the goalkeeper's team or a defender's team |-1 point
-|For each yellow card |-1 point
-|For each own goal conceded |-2 points
-|For each red card (includes any yellow card points) |-3 points
+For playing at least 60 minutes in a match |2 points
+For each goal scored by a goalkeeper or defender |8 points
+For each goal scored by a midfielder |7 points
+For each goal scored by a forward |6 points
+For each goal assist |4 points
+For a clean sheet by a goalkeeper (the goalkeeper must also play at least 60 minutes) |4 points
+For a clean sheet by a defender (the defender must also play at least 60 minutes) |4 points
+For a clean sheet by a midfielder (the midfielder must also play at least 60 minutes) |1 point
+For every 4 shot saves by a goalkeeper |1 point
+For each penalty save |4 points
+For every three tackles in the game |2 points
+For every 60 successful passes by a midfielder |2 points
+For each penalty miss |-2 points
+For every 2 goals conceded by the goalkeeper's team or a defender's team |-1 point
+For each yellow card |-1 point
+For each own goal conceded |-2 points
+For each red card (includes any yellow card points) |-3 points
 
 - Captaining a player will give us a double point on that particular player. If the player we captained is not playing, then the double point will be given to selected vice-captain.
 Sounds like a proper optimization problem right? 
@@ -145,12 +145,30 @@ Idea:
 
 Performance testing on 4 weeks (19-20, 20-21, 21-22, 22-23) shows this method will give us score >= average gameweek points.
 Ride the wave vs average point on that week (90-62, 57-45, 45-45, 79-58).
+GW 23-24 recommended team:
+
+element | web_name | club_name | element_type | now_cost | n_chosen
+---|---|---|---|---|---|
+286|Elliot|Newcastle|GK|41|474
+438|Adrián|West|Ham|GK|44|202
+245|Otamendi|Man|City|DF|65|697
+100|Alonso|Chelsea|DF|73|570
+264|Jones|Man|Utd|DF|57|503
+444|Ogbonna|West|Ham|DF|45|219
+77|Mee|Burnley|DF|49|214
+247|Sterling|Man|City|MF|89|866
+234|Salah|Liverpool|MF|102|796
+340|Arnautovic|West|Ham|MF|70|446
+279|Lingard|Man|Utd|MF|64|439
+108|Loftus-Cheek|Crystal|Palace|MF|46|228
+394|Kane|Spurs|ST|130|867
+235|Firmino|Liverpool|ST|92|638
+159|Calvert-Lewin|Everton|ST|54|329
+
+
 
 ## Selecting Captain
 Idea: 
 - Find the player who got most capped as captain on the latest week.
 
-If wildcard is still an option and you need to change lots of players (by lots I mean > 5 infield players), probably its best to use it now. 
-Otherwise, hold the wildcard until double week.
-
-My target by the end of season: top 100,000 global. Lets hope luck is on our side now.
+My target by the end of season: top 100,000 global. May god bless us all.
