@@ -150,17 +150,17 @@ GW 23-24 recommended team:
 element | web_name | club_name | element_type | now_cost | n_chosen
 ---|---|---|---|---|---|
 286|Elliot|Newcastle|GK|41|474
-438|Adrián|West|Ham|GK|44|202
-245|Otamendi|Man|City|DF|65|697
+438|Adrián|West Ham|GK|44|202
+245|Otamendi|Man City|DF|65|697
 100|Alonso|Chelsea|DF|73|570
-264|Jones|Man|Utd|DF|57|503
-444|Ogbonna|West|Ham|DF|45|219
+264|Jones|Man Utd|DF|57|503
+444|Ogbonna|West Ham|DF|45|219
 77|Mee|Burnley|DF|49|214
-247|Sterling|Man|City|MF|89|866
+247|Sterling|Man City|MF|89|866
 234|Salah|Liverpool|MF|102|796
-340|Arnautovic|West|Ham|MF|70|446
-279|Lingard|Man|Utd|MF|64|439
-108|Loftus-Cheek|Crystal|Palace|MF|46|228
+340|Arnautovic|West Ham|MF|70|446
+279|Lingard|Man Utd|MF|64|439
+108|Loftus-Cheek|Crystal Palace|MF|46|228
 394|Kane|Spurs|ST|130|867
 235|Firmino|Liverpool|ST|92|638
 159|Calvert-Lewin|Everton|ST|54|329
